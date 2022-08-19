@@ -1,0 +1,222 @@
+.navbar {
+    padding: 10px 50px 10px 90px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.topMenu {
+    float: right;
+}
+
+.about {
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding: 100px 50px 150px 50px;
+}
+
+.about button {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+
+.introduction {
+    padding: 50px 50px 0px 50px;
+    font-size: 25px;
+}
+
+.introduction button {
+    margin-top: 40px;
+}
+
+.introduction h1 {
+    font-size: 60px;
+}
+
+.sm-icons{
+    float: right;
+    margin-top: 30px;
+    margin-right: 190px;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.icons a{
+    color: white;
+}
+
+.icons a:hover {
+    color: lightgray;
+}
+
+.explore {
+    background-image: url("images/bg_explore.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding-left: 100px;
+    padding-top: 80px;
+    height: 700px;
+    align-content: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 70px ;
+    text-align: left;
+}
+
+.whoiam {
+    background-color: #4b4b4b;
+    color: white;
+    padding: 100px;
+}
+
+.whoiam div{
+    width: 70%;
+}
+
+.whoiam p {
+    font-size: 40px;
+}
+
+.education {
+    text-align: center;
+    padding: 50px 100px 100px;
+}
+
+.education h1 {
+    text-align: left;
+    font-size: 60px;
+}
+
+.institute {
+    display: inline-block;
+    margin:0 80px;
+    width: 270px;
+}
+
+.institute div{
+    text-align: left;
+}
+
+.institute div a {
+    color: black;   
+    text-decoration: none;
+}
+
+.institute div a:hover {
+    color: blue;   
+    text-decoration: none;
+}
+
+.institute div h3{
+    color: grey;
+    font-size: 25px;
+}
+
+.institute-icon {
+    font-size: 230px;
+}
+
+.skills {
+    padding: 80px 100px 80px;
+    background-color: lightgray;
+}
+
+.skills li, .experience li{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.projects {
+    padding: 80px 100px 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.single-project p {
+    font-size: 100px;
+}
+
+.single-project {
+    display: inline-block;
+    text-align: center;
+    margin: 22px;
+    width: 260px;
+}
+
+.single-project h3 {
+    text-align: left;
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+.contact-me {
+    padding: 80px 100px 450px 100px;
+    background-color: black;
+    color: white;
+}
+
+.contacts {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.contacts h2 {
+    margin: 40px 0px;
+    font-size: 35px;
+}
+
+.contacts p {
+    margin-bottom: 30px;
+}
+.contacts .icons a{
+    color: yellow;
+    font-size: 50px;
+    transition: transform .5s;
+}
+
+.contacts .icons a:hover{
+    color: yellowgreen;
+    transform: scale(1.2);
+}
+
+.experience {
+    padding: 80px 100px 80px;
+}
+
+.experience p {
+    color: grey;
+}
+
+@media (max-width: 1050px){
+    .profile-pic{
+        position: absolute;
+    }
+
+    .about{
+        text-align: center;
+    }
+}
